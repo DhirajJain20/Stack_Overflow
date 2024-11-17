@@ -2,7 +2,7 @@ import React from 'react';
 
 const RightSlider = () => {
   return (
-    <div className="bg-white shadow-md fixed top-13 right-0 h-screen overflow-y-auto p-6 w-full sm:w-72 md:w-80 lg:w-96 xl:w-[28rem]">
+    <div className="bg-white shadow-md fixed top-13 right-0 h-screen overflow-y-auto p-6 w-full ml-56 sm:w-72 md:w-80 lg:w-96 xl:w-[28rem] mt-16">
       {/* The Overflow Blog Section */}
       <div className="mb-8">
         <h2 className="text-lg font-bold mb-4">The Overflow Blog</h2>
