@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
-import Sidebar from "./Components/Slider";
+import Slider from "./Components/Slider";
 import RightSlider from "./Components/RightSlider";
 import MiddleSlider from "./Components/MiddleSlider";
 
@@ -10,7 +10,7 @@ const App = () => {
       <Navbar />
       <div className="flex">
         <div className="w-64">
-          <Sidebar />
+          <Slider />
         </div>
         <div className="flex-grow">
           <MiddleSlider />

@@ -1,9 +1,8 @@
 import React from 'react';
 
-const Sidebar = () => {
+const Slider = () => {
   return (
-    <div className="bg-white shadow-md h-screen w-full sm:w-56 md:w-64 lg:w-72 fixed top-15 left-0 flex flex-col py-6 px-12 overflow-y-auto mt-16">
-      {/* Home Section */}
+    <div className="bg-white shadow-md h-screen w-48 sm:w-56 md:w-64 lg:w-72 fixed top-0 left-0 flex flex-col py-6 px-4 md:px-8 overflow-y-auto mt-16 hidden sm:block">
       <div className="mb-8">
         <ul className="space-y-4">
           <li>
@@ -113,4 +112,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default Slider;
